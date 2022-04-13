@@ -1,5 +1,5 @@
-'use strict'
-const {Sequelize,DataTypes} = require('sequelize');
+'use strict';
+const {Sequelize, DataTypes} = require('sequelize');
 const sequelize = new Sequelize(
   'postgres://postgres:postgres@db/schedule_arranger'
 );
